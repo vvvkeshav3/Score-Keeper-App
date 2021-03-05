@@ -1,0 +1,86 @@
+img{
+    width : 400px;
+    height: 250px;
+    display : block;
+    margin: auto;
+}
+main{
+    box-shadow : 0 0 6px 2px green;
+} 
+body{
+    width : 400px;
+    margin: auto;
+    margin-top : 25px;
+
+}
+h3{
+    margin: 0;
+    border : 1px solid ;
+    box-shadow: 0 1px 2px green;
+    padding : 8px 5px;
+}
+.btn{
+    display : flex;
+    margin-top : 10px; 
+}
+button{
+    flex : 30px 1;
+    height: 35px;
+    font-size : 1em;
+    color: white;
+    border: none;
+    border-radius : 2px;
+    outline : none;
+    transition: background-color 150ms;
+}
+.player1btn{
+    background-color: rgb(45, 212, 45);
+}
+.player1btn:hover{
+    background-color: rgb(27, 172, 27);
+}
+.player2btn{
+    background-color: rgb(63, 63, 231);
+}
+.player2btn:hover{
+    background-color: rgb(34, 34, 185);
+}
+.reset{
+    background-color: red;
+}
+.reset:hover{
+    background-color: rgb(214, 5, 5);
+}
+section {
+    padding-left : 15px;
+}
+#score{
+    margin: 0;
+    padding-top : 15px; 
+    font-size: 1.9em;
+    font-weight : bold;
+}
+section div{
+    font-weight : bold;
+    font-size: 1.1em;
+}
+select{
+    margin-left: 5px;
+    border-radius : 50%;
+    border-width: 2px;
+    padding : 4px;
+    outline: none;
+    transition: border 100ms; 
+}
+.limit:hover{
+    border: 2px solid rgb(85, 85, 235); 
+}
+.win{
+    color:rgb(27, 172, 27);
+}
+.lose{
+    color: red;
+}
+.disabled{
+    opacity : 0.3;
+}
